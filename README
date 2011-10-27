@@ -1,0 +1,11 @@
+This perl script takes a tab-delimited text file as input and generates a set of RSS files as output. 
+The text file has been sorted by LC call number, and it includes a unique bibid number for each title. 
+The script constructs a hyperlink using the bibid which links to the OPAC record.
+
+usage: cat sortedfile.tab | ./makeRss.pl
+
+Sample files on this repository include a 
+tab-delimited text file (sortedfile.tab) and 
+two of the generated RSS xml files, newgelmanbooks.xml and newgelmanbooksT.xml. 
+
+The xml files may be opened in a web browser for an RSS view.
